@@ -1,0 +1,33 @@
+{
+  "name": "sugercrm-client",
+  "version": "1.0.0",
+  "description": "SugerCRM Client",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/legalthings/sugercrm-client.git"
+  },
+  "keywords": [
+    "sugercrm",
+    "client"
+  ],
+  "author": "Sven Stam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/legalthings/sugercrm-client/issues"
+  },
+  "homepage": "https://github.com/legalthings/sugercrm-client#readme",
+  "dependencies": {
+    "request": "^2.72.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3",
+    "should": "^9.0.1"
+  }
+}
